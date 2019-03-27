@@ -1,0 +1,129 @@
+/* sass */
+$c-main: #FFAD19;
+$c-second: #FFD17F;
+$c-third: #FEA300;
+$c-text-lead: #FFF5E5;
+$c-text: #322000;
+
+body {
+  background: $c-main;
+  color: $c-text;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+h1 {
+  font-size: 3rem;
+  text-transform: uppercase;
+}
+p {
+  line-height: 1.5;
+}
+
+/* header */
+header {
+  color: $c-text-lead;
+  background-image: url('https://source.unsplash.com/F3vbFTQ2v-o');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-bottom: 3px solid $c-text;
+  padding: 7rem 1rem;
+}
+
+/* main form */
+form {
+  background: $c-second;
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 2rem 1rem;
+  border-radius: 5px;
+  box-shadow: 
+    5px 0 20px -10px rgba(0,0,0,0.25),
+    -5px 0 20px -10px rgba(0,0,0,0.25);
+  display: flex;
+  flex-direction: column;
+}
+#title,
+#description {
+  text-align: center;
+}
+#name,
+#email,
+#number {
+  width: auto;
+  outline: none;
+  border: 1px solid gray;
+  background: white;
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+#name-label,
+#email-label,
+#number-label {
+  display: none;
+}
+select {
+  margin-bottom: 2rem;
+  padding: 0.5rem;
+}
+
+/* radios and checkboces */
+.rad-check {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+fieldset {
+  flex-grow: 1;
+  background: white;
+  margin-bottom: 2rem;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: column;
+}
+fieldset label {
+  margin: 0.5rem;  
+}
+legend {
+  background: white;
+  border: 1px solid lightgray;
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,0.25);
+}
+
+/* text area */
+textarea {
+  border: 1px solid gray;
+  background: white;
+  resize: vertical;
+}
+
+/* submit button */
+#submit {
+  background: $c-main;
+  color: $c-text;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  margin: 1rem 0;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 5px 20px -5px rgba(0,0,0,0.25);
+}
+#submit:hover {
+  background: $c-third;
+}
+#submit:activate {
+  box-shadow: 0 1px 10px 0 rgba(0,0,0,0);
+}
+
+/* footer */
+footer {
+  color: $c-text-lead;
+  background: $c-text;
+  margin-top: 2rem;
+  height: 3rem;
+  height: 5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; 
+}

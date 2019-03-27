@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Survey</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> -->
+
+<body>
+  <header>
+    <h1 id="title">Survey Title</h1>
+    <p id="description">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum id doloremque laudantium, tenetur nemo ipsa quaerat vitae. Tempora, nesciunt perferendis.</p>
+  </header>
+  <form id="survey-form" action="#">
+    <label for="name-label" id="name-label">Name</label>
+    <input type="text" id="name" placeholder="Name" required>
+    <label for="email-label" id="email-label">Email</label>
+    <input type="email" id="email" placeholder="Email" required>
+    <label for="number-label" id="number-label">Pick a Number</label>
+    <input type="number" id="number" min="1" max="10" placeholder="Pick a Number" required>
+    <select name="dropdown" id="dropdown">
+      <option selected value="selection">Selection</option>
+      <option value="dropdown1">Dropdown 1</option>
+      <option value="dropdown2">Dropdown 2</option>
+      <option value="dropdown3">Dropdown 3</option>
+    </select>
+    <div class="rad-check">        
+      <fieldset>
+        <legend>Radio</legend>
+        <label for="radio 1"><input id="radio 1" name="radio" type="radio" value="option1">Radio 1</label>
+        <label for="radio 2"><input id="radio 2" name="radio" type="radio" value="option2">Radio 2</label>
+        <label for="radio 3"><input id="radio 3" name="radio" type="radio" value="option3">Radio 3</label>
+        </label>
+      </fieldset>
+      <fieldset>
+        <legend>Checkboxes</legend>
+        <label for="check 1"><input id="check 1" type="checkbox" value="Check 1">Check 1</label>
+        <label for="check 2"><input id="check 2" type="checkbox" value="Check 2">Check 2</label>
+        <label for="check 3"><input id="check 3" type="checkbox" value="Check 3">Check 3</label>
+        <label for="check 4"><input id="check 4" type="checkbox" value="Check 4">Check 4</label>
+        <label for="check 5"><input id="check 5" type="checkbox" value="Check 5">Check 5</label>
+        <label for="check 6"><input id="check 6" type="checkbox" value="Check 6">Check 6</label>
+        <label for="check 7"><input id="check 7" type="checkbox" value="Check 7">Check 7</label>
+      </fieldset>
+    </div>
+  <textarea name="text" id="text" cols="100" rows="10" placeholder="Enter Text..."></textarea>
+  <button id="submit">Submit</button>
+  </form>
+  <footer>
+    <p>design by rekurzion</p>
+</footer>
+</body>
+  
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
