@@ -1,1 +1,1 @@
-https://rekurzion.github.io/survey/
+https://rekurzion.github.io/fcc-survey/
